@@ -1,0 +1,75 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap");
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playwrite DE Grund", cursive;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(
+    109.5deg,
+    rgb(13, 11, 136) 9.4%,
+    rgb(86, 255, 248) 78.4%
+  );
+}
+.conatainer {
+  border-radius: 28px;
+  background: #e0e0e0;
+  box-shadow: inset 22px -22px 19px #bebebe, inset -22px 22px 19px #ffffff;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+Label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+}
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #0062cc;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
